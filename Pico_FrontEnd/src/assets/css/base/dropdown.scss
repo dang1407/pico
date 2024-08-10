@@ -1,0 +1,125 @@
+
+
+.dx-selectbox {
+    .dx-dropdowneditor-icon::before {
+        transition: 0.4s;
+        width: 16px!important;
+        height: 16px!important;
+        background: url("../../../assets/icon/Gray.247f7b7e.png") -120px -80px !important;
+        content: ""!important;
+    }
+}
+
+
+
+.dx-texteditor.dx-state-hover {
+    border-color: #007aff!important;
+
+    .dx-dropdowneditor-icon {
+        background-color: unset!important;
+    }
+
+}
+
+.dx-state-active {
+    .dx-dropdowneditor-icon {
+        background-color: unset!important;
+    }
+}
+
+.dx-dropdowneditor.dx-dropdowneditor-active {
+    .dx-dropdowneditor-icon {
+        background-color: unset!important;
+    }
+    .dx-dropdowneditor-icon::before {
+        rotate: 180deg;
+     }
+}
+
+
+.dx-state-focused > .dx-treeview-item {
+    background-color: #f2f2f2 !important;
+    color: black !important;
+}
+
+.dx-state-selected > .dx-treeview-item  {
+    .dx-item-content {
+        color: #007aff!important;
+    }
+}
+
+
+.dropdown {
+    padding: 10px 16px!important;
+    .dx-treeview-item:hover {
+        background-color: #f2f2f2 !important;
+    }
+
+}
+
+.dx-treeview-node {
+    padding-left: unset!important;
+    .dx-icon {
+        margin-left: 5px!important;
+    }
+}
+
+
+
+.dx-treeview-item {
+    padding-left: 30px!important;
+    display: flex!important;
+    align-items: center!important;
+    min-height: 36px;
+
+
+
+}
+
+
+
+.dx-icon-close-tree-icon {
+    background: url("../../icon/close-tree-item.637859dd.svg") no-repeat 50%;
+    height: 16px;
+    width: 16px;
+}
+
+.dx-icon-open-tree-icon {
+    background: url("../../icon/open-tree-item.45e1dd6a.svg") no-repeat 50%;
+    height: 16px;
+    width: 16px;
+}
+
+.dx-selectbox-popup-wrapper {
+    .dx-popup-normal {
+        padding: 8px;
+    }
+
+    .dx-item {
+        border-radius: 5px;
+    }
+
+    .dx-item:active {
+        background-color: #d8ebff !important;
+        color: #007aff !important;
+    }
+}
+
+
+.dx-dropdowneditor-icon::before {
+    transition: 0.4s;
+    content: ""!important;
+    background: url("../../icon/Gray.247f7b7e.png") -120px -80px !important;
+    width: 16px!important;
+    height: 16px!important;
+  
+}
+
+  .dx-icon.dx-icon-chevrondown::before {
+    transition: 0.4s;
+    content: ""!important;
+    mask: url("../../icon/Gray.247f7b7e.png") -120px -80px !important;
+    width: 16px!important;
+    height: 16px!important;
+    background-color: white;
+  }

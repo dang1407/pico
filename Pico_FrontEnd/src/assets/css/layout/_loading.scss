@@ -1,0 +1,23 @@
+.loading__layout {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    inset: 0;
+    z-index: 100;
+
+    & > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: rotation 2s infinite linear;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

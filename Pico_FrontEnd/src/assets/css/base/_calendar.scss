@@ -1,0 +1,49 @@
+.dx-calendar-contoured-date > span {
+    font-weight: 700 !important;
+    color: #007aff !important;
+    border: 1px solid #e6e6e6!important;
+    box-shadow: none!important;
+    width: 90%!important;
+    height: 100%!important;
+  }
+
+  .dx-calendar-today  > span {
+    font-weight: 700 !important;
+    color: #007aff !important;
+    border: none!important;
+    box-shadow: none!important;
+    width: 90%!important;
+    height: 100%!important;
+  }
+
+  .dx-calendar-cell.dx-calendar-selected-date span {
+    background: #007aff!important;
+    color: white!important;
+  }
+
+.dx-calendar-body {
+    & th {
+        box-shadow: inset 0 -1px 0 #ddd!important;
+        color: #999!important;
+        text-transform: capitalize!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+    }
+}
+
+.dx-calendar-navigator {
+    & div {
+        border: none!important;
+    }
+    .dx-button-text {
+        text-transform: capitalize!important;
+        color: #007aff!important;
+    }
+    .dx-icon-chevronright::before, .dx-icon-chevronleft::before {
+        background-color: #007aff!important;
+    }
+}
+
+.dx-state-disabled.dx-calendar-navigator-next-view {
+    background-color: #e5e5e5!important;
+}

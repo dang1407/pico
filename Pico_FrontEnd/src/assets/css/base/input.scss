@@ -1,0 +1,119 @@
+.textbox-with-icon {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+.textbox-with-icon:focus-within {
+  border-color: #007aff;
+}
+
+.textbox-with-icon {
+  .dx-textbox {
+    flex-grow: 1 !important;
+    border: none !important;
+  }
+}
+
+.textfield {
+    display: flex;
+
+    min-height: 36px;
+
+    .textfield__label {
+        padding-right: 12px;
+        flex-basis: calc(100% / 3);
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        max-height: 36px;
+
+      &[required] {
+        &::after {
+          content: "*";
+          color: red;
+          margin-left: 3px;
+        }
+      }
+
+    }
+
+    .textfield__content {
+        flex-grow: 1;
+        position: relative;
+    }
+
+}
+
+
+
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pr-16 {
+    padding-right: 16px;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.textfield--settled {
+  padding-left: 12px;
+  position: relative;
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.textfield--settled::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: -5px;
+  border-bottom: 1px solid #e9ebee;
+}
+
+
+.search-icon {
+  background: url("../../icon/Gray.247f7b7e.png") 0 -40px !important;
+  width: 16px!important;
+  height: 16px!important;
+}
+
+.dx-checkbox-container {
+  position: relative;
+}
+
+
+
+
+
+.textfield__content-settled {
+  display: flex;
+  align-items: center;
+}
+
+.dx-datebox-date {
+  .dx-dropdowneditor-icon::before {
+  background: url("../../icon/calendar.5f14bc77.svg") no-repeat 50% !important;
+  height: 16px;
+  width: 18px;
+}
+.dx-dropdowneditor-button:hover{
+  background-color: gainsboro;
+}
+}
+
+.dx-calendar-empty-cell {
+  background: url("../../icon/download.png") 50% no-repeat !important;
+}

@@ -1,0 +1,64 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  .pagination__rowsPerPage {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.dx-list-item-selected {
+  background-color: #d8ebff !important;
+  color: #007aff !important;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: url("../../../assets/icon/select-active.12b8adfe.svg") no-repeat 50%;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    transform: translateY(50%);
+
+  }
+}
+
+.pagination__navigation {
+  display: flex;
+  .dx-button-mode-outlined.dx-state-focused {
+    background-color: unset!important;
+  }
+}
+
+.nav-prev.deactive{
+  .dx-button-mode-outlined {
+    cursor: not-allowed;
+  }
+  .dx-button-mode-outlined.dx-state-hover {
+    background-color: unset!important;
+  }
+}
+
+.nav-next.deactive {
+  .dx-button-mode-outlined {
+    cursor: not-allowed;
+  }
+  .dx-button-mode-outlined.dx-state-hover {
+    background-color: unset!important;
+  }
+}
+
+
+
+.nav-next, .nav-prev {
+  border-radius: 4px;
+}
+
+.nav-next:active, .nav-prev:active {
+  background-color: rgba(0,0,0,.04);
+}

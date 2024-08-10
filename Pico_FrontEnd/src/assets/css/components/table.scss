@@ -1,0 +1,495 @@
+
+
+.table {
+    min-height: 0;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+
+    .table__feature-row {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 12px 16px;
+      
+        .table__feature-row--left {
+          display: flex
+        }
+      
+        .table__feature-row--right {
+          display: flex;
+          gap: 15px;
+        }
+      }
+
+.table-content-wrapper {
+  min-height: 0;
+  flex-grow: 1;
+}
+
+  .table__content {
+
+    height: calc(100% + 1px);
+    .dx-datagrid-headers {
+
+      & tr td:last-child {
+        background-color: transparent;
+        position: sticky;
+        right: 0;
+        display: none;
+      }
+
+      & td {
+        color: black;
+        height: 48px;
+        vertical-align: middle !important;
+      }
+
+    }
+
+    .unpin__icon {
+      background: url("../../../assets/icon/ico-pin.4a614566.svg") no-repeat 50%;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 0;
+      display: none;
+      border-right: 2px solid #ddd;
+      &::after {
+        content: "";
+        height: 300px;
+        width: 2px;
+        background-color: #ddd;
+        position: absolute;
+        right: -2px;
+        bottom: -100%;
+        
+      }
+      &:hover {
+          &::before {
+            content: "";
+            height: 100%;
+            width: 1px;
+            background-color: #ddd;
+            position: absolute;
+            right: 0;
+          }
+        
+      }
+    }
+
+    .pin__icon {
+      background: url("../../../assets/icon/ico-un-pin.aaa1dd1a.svg") no-repeat 50%;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 0;
+      display: none;
+      &:hover {
+        &::before {
+          content: "";
+          height: 100%;
+          width: 1px;
+          background-color: #ddd;
+          position: absolute;
+          right: 0;
+        }
+      
+    }
+    }
+
+    .dx-template-wrapper:hover {
+      .pin__icon {
+        display: unset;
+      }
+    }
+
+    .isFixed {
+
+      .pin__icon {
+        display: none;
+      }
+      .unpin__icon {
+        display: unset;
+        margin-right: -7px;
+      }
+    }
+    .dx-header-row {
+      border-top: 1px solid #ddd;
+      .dx-datagrid-text-content {
+        width: 100%;
+        position: relative;
+        overflow: unset;
+      }
+    }
+
+    .dx-datagrid-rowsview {
+
+        & td {
+           
+            height: 48px;
+            vertical-align: middle !important;
+          }
+
+      .action-cell {
+        width: 0;
+        position: sticky;
+        right: 0;
+        overflow: unset;
+      }
+
+      .action-cell {
+        .dx-template-wrapper {
+          width: 144px;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          display: none!important;
+        }
+      }
+
+
+
+
+      .dx-state-hover {
+
+        .action-cell {
+          .dx-template-wrapper {
+            display: flex!important;
+        }
+        }
+
+        & td {
+          background-color: #f2f2f2 !important;
+        }
+      }
+
+      .dx-select-checkbox {
+        display: inline-block !important;
+      }
+
+      .dx-selection {
+        & td {
+          background-color: #f2f8ff !important;
+        }
+      }
+    }
+
+    .dx-datagrid-content {
+      .dx-checkbox-icon {
+        height: 20px!important;
+        width: 20px!important;
+        background: url("../../../assets/icon/uncheck-checkbox.74fd9037.svg")
+          no-repeat;
+        background-size: 20px;
+        border: none;
+        &:before {
+          content: "";
+          background: url("../../../assets/icon/check-checkbox.1abdccd9.svg")
+            no-repeat;
+          width: 20px;
+          height: 20px;
+          background-size: 20px;
+          top: 0;
+          left: 0;
+          margin: 0;
+        }
+      }
+
+      .dx-checkbox-indeterminate .dx-checkbox-icon::before {
+        content: "";
+        background: url("../../../assets/icon/iderminate-checkbox.99cbdb74.svg")
+          no-repeat;
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+        top: 0;
+        left: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  .table__footer {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #f5f6f8;
+    border-top: 1px solid #e6e6e6;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+.btn__group {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  .dx-button {
+    border: none !important;
+  }
+
+  .dx-button-primary {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  .dx-dropdownbutton {
+    background-color: #007aff;
+    height: 100%;
+    width: 40px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: 1px solid #fff;
+
+    .dx-dropdownbutton-action {
+      border-top-left-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+      border: none;
+    }
+
+    .dx-icon {
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+
+
+
+
+.dx-freespace-row {
+  display: none;
+}
+
+.dx-select-checkbox {
+  display: inline-block !important;
+}
+
+.dx-checkbox-icon {
+  height: 20px!important;
+  width: 20px!important;
+  background: url("../../../assets/icon/uncheck-checkbox.74fd9037.svg")
+    no-repeat;
+  background-size: 20px;
+  border: none!important;
+  &:before {
+    content: ""!important;
+    background: url("../../../assets/icon/check-checkbox.1abdccd9.svg")
+      no-repeat!important;
+    width: 20px!important;
+    height: 20px!important;
+    background-size: 20px!important;
+    top: 0!important;
+    left: 0!important;
+    margin: 0!important;
+  }
+}
+
+
+.dx-datagrid-rowsview {
+  .WorkStatus-cell > .active, .IsUsing-cell > .active {
+    border-radius: 4px;
+    background-color: #e5fce9!important;
+    height: 32px;
+    padding: 0 12px;
+    display: inline-flex;
+    color: #00af2f;
+    line-height: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+  }
+
+  .WorkStatus-cell > .unactive {
+    border-radius: 4px;
+    background-color: #f4f4f4!important;
+    height: 32px;
+    padding: 0 12px;
+    display: inline-flex;
+    line-height: 20px;
+    align-items: center;
+  }
+
+  .IsUsing-cell > .unactive {
+    border-radius: 4px;
+    background-color: #f9c7c7!important;
+    color: #e61d1d!important;
+    height: 32px;
+    padding: 0 12px;
+    display: inline-flex;
+    line-height: 20px;
+    align-items: center;
+  }
+
+}
+
+.dx-radiobutton-icon {
+  border: 3px solid #838181!important;
+}
+
+
+.dx-radiobutton-icon-checked .dx-radiobutton-icon-dot {
+  background-color: #007aff!important;
+  border-width: 3.5px!important;
+}
+
+.dx-radiobutton-checked {
+  .dx-radiobutton-icon {
+    border: 3px solid #007aff!important;
+  }
+}
+
+
+
+.formTable {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  .table-content-wrapper {
+    .dx-datagrid-headers {
+      background-color: #eee;
+
+      .dx-datagrid-content {
+        border-radius: 4px;
+      }
+    }
+
+  }
+  .dx-datagrid .dx-row > td {
+    padding-left: 20px!important;
+    padding-right: 0px!important;
+  }
+  
+
+  
+}
+
+.unpin__icon {
+  background: url("../../../assets/icon/ico-pin.4a614566.svg") no-repeat 50%;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+.dx-datagrid-nodata {
+  position: relative;
+}
+
+.dx-datagrid-nodata::before {
+  content: "";
+  position: absolute;
+  top: -145px;
+  left: calc(50% - 98px);
+  background: url("../../icon/empty-search.aa2c63f2.svg");
+  height: 125px;
+  width: 195px;
+}
+
+
+.dx-checkbox-indeterminate .dx-checkbox-icon::before {
+  content: "";
+  background: url("../../../assets/icon/iderminate-checkbox.99cbdb74.svg")
+    no-repeat!important;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.dx-datagrid-nodata {
+  transform: translate(-50%, 150%)!important;
+}
+
+
+.form-wrapper {
+  .dx-radiobutton-icon {
+    position: relative;
+    z-index: 1;
+  }
+
+
+    .dx-radiobutton-icon:hover.dx-radiobutton-icon::before {
+      content: ""!important;
+      width: 200%!important;
+      height: 200%!important;
+      background-color: rgba(185, 185, 185, 0.3)!important;
+      position: absolute!important;
+      border-radius: 50%!important;
+      top: 50%!important;
+      left: 50%!important;
+      transform: translate(-50%, -50%)!important;
+      z-index: 0!important;
+    }
+  
+  .dx-item.dx-state-focused .dx-radiobutton-icon::before {
+    content: "";
+    width: 200%;
+    height: 200%;
+    background-color: rgba(185, 185, 185, 0.3);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  
+  
+  .dx-checkbox-container {
+    overflow: unset!important;
+  }
+  
+  
+  .dx-checkbox.dx-state-focused .dx-checkbox-icon::after {
+    content: "";
+    width: 200%;
+    height: 200%;
+    background-color: rgba(185, 185, 185, 0.3);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .dx-checkbox-icon:hover.dx-checkbox-icon::after {
+    content: ""!important;
+    width: 200%!important;
+    height: 200%!important;
+    background-color: rgba(185, 185, 185, 0.3)!important;
+    position: absolute!important;
+    border-radius: 50%!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    z-index: 0!important;
+  }
+
+
+}
+
+.IsDependant-cell {
+  .active {
+    text-align: center;
+    & span {
+      display: inline-block;
+      width: 13px!important;
+      height: 9px!important;
+      background-color: #007aff!important;
+      mask: url("../../../assets/icon/icon.4ca9813a.svg") -64px -46px!important;
+      
+    }
+  }
+}

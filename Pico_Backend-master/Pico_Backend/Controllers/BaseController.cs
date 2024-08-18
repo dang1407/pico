@@ -70,6 +70,20 @@ namespace Pico_Backend.Controllers
             }
         }
 
+        [HttpGet("NewId")]
+        public async Task<IActionResult> GetNewIdAsync()
+        {
+            try
+            {
+                var newId = await _baseRepository.GetNewId();   
+                return Ok(newId);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Cannot get new Id");    
+            }
+        }
+
         /// <summary>
         /// Lọc dữ liệu
         /// </summary>

@@ -24,6 +24,7 @@ namespace Pico_Backend.Interface
         ///// <returns>Id mới của dữ liệu</returns>
         //public Task<T> GetNewId();
 
+        public Task<int> GetNewId();
 
         /// <summary>
         /// Lọc dữ liệu

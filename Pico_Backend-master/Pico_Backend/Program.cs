@@ -20,7 +20,9 @@ var connectionString = builder.Configuration["ConnectionString"];
 builder.Services.AddMySqlDataSource(connectionString);
 builder.Services.AddScoped<ITelevisonRepository, TelevisonRepository>();
 builder.Services.AddScoped<IDieuHoaRepository, DieuHoaRepository>();
-builder.Services.AddScoped<IAuthenticateRepository, AuthenticateRepository>(); 
+builder.Services.AddScoped<IAuthenticateRepository, AuthenticateRepository>();
+builder.Services.AddScoped<ICookerRepository, CookerRepository>();  
+builder.Services.AddScoped<IWashingMachineRepository, WashingMachineRepository>();  
 var app = builder.Build();
 app.UseCors(option => option.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 

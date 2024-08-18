@@ -25,12 +25,19 @@ namespace Pico_Backend.Repository
             return result;
         }
 
+        public async Task<int> GetNewId()
+        {
+            string sql = $"SELECT CAST(MAX(ID) AS UNSIGNED) + 1 FROM {typeof(T).Name};";
+            int newId = await _connection.QuerySingleOrDefaultAsync<int>(sql);
+            return newId; 
+        }
+
         public async Task<T> GetById(int id)
         {
             string storedProcedureName = $"Proc_{typeof(T).Name}_GetByID";
             var parameters = new DynamicParameters();
             _connection.Open();
-            parameters.Add($"m_{typeof(T).Name}ID", id);
+            parameters.Add($"p_{typeof(T).Name}ID", id);
             var record = await _connection.QueryFirstOrDefaultAsync<T>(storedProcedureName, parameters, commandType: CommandType.StoredProcedure);
             _connection.Close();
             return record;
@@ -44,11 +51,11 @@ namespace Pico_Backend.Repository
             parameters.Add("p_filterObject", JsonSerializer.Serialize(filterObject));
             parameters.Add("p_pageSize", pageSize);
             parameters.Add("p_pageNumber", pageNumber - 1);
-            var query = await _connection.QueryAsync<T>($"Proc_{typeof(T).Name}_GetPaging", parameters, commandType: CommandType.StoredProcedure);
-            //var records = query.Read<T>().ToList();
-            //var totalRecord = query.Read<int>().First();
-            var records = query;
-            var totalRecord = query.Count();
+            var query = await _connection.QueryMultipleAsync($"Proc_{typeof(T).Name}_GetPaging", parameters, commandType: CommandType.StoredProcedure);
+            var records = query.Read<T>().ToList();
+            var totalRecord = query.Read<int>().First();
+            //var records = query;
+            //var totalRecord = query.Count();
             _connection.Close();
             return new PagingResponse<T> { Data = records, TotalRecord = totalRecord };
         }

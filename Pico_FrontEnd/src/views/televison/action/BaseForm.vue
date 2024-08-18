@@ -108,7 +108,7 @@ import { ENUMS } from "@/helpers/enums";
 import { ACCOUNTING_TEXT } from "@/helpers/resources";
 import {
   createRecord,
-  getNewEmployeeCode,
+  getNewID,
   getRecordById,
   updateRecord,
 } from "@/helpers/api";
@@ -163,8 +163,8 @@ export default {
     }
     if (this.formMode == ENUMS.FORM_MODE.ADD) {
       this.flag = true;
-      const newCode = await getNewEmployeeCode();
-      this.formData = { ...this.formData, EmployeeCode: newCode };
+      const newCode = await getNewID(this.tableName);
+      this.formData = { ...this.formData, ID: newCode };
     }
   },
 
@@ -297,7 +297,7 @@ export default {
       if (event.code == "Escape") {
         if (this.formMode == ENUMS.FORM_MODE.ADD) {
           var originalForm = Object.assign({}, this.formData);
-          delete originalForm?.["EmployeeCode"];
+          delete originalForm?.["ID"];
           if (JSON.stringify(originalForm) != JSON.stringify({})) {
             this.showChangeDialog();
           } else {
@@ -369,8 +369,8 @@ export default {
             await createRecord(this.formData, this.tableName);
             this.flag = false;
             this.errorList = {};
-            const newCode = await getNewEmployeeCode();
-            this.formData = { ...{}, EmployeeCode: newCode };
+            const newCode = await getNewID(this.tableName);
+            this.formData = { ...{}, ID: newCode };
             await this.$nextTick();
             this.flag = true;
             showToast(ACCOUNTING_TEXT.words.CreateEmployeeSuccess, "success");
@@ -389,8 +389,8 @@ export default {
             );
             this.flag = false;
             this.errorList = {};
-            const newCode = await getNewEmployeeCode();
-            this.formData = { ...{}, EmployeeCode: newCode };
+            const newCode = await getNewID(this.tableName);
+            this.formData = { ...{}, ID: newCode };
             await this.$nextTick();
             this.flag = true;
             this.$store.dispatch("toggleLoading");
@@ -412,7 +412,7 @@ export default {
     isClose: function () {
       if (this.formMode == ENUMS.FORM_MODE.ADD) {
         var originalForm = Object.assign({}, this.formData);
-        delete originalForm?.["EmployeeCode"];
+        delete originalForm?.["ID"];
         if (JSON.stringify(originalForm) != JSON.stringify({})) {
           this.showChangeDialog();
         } else {

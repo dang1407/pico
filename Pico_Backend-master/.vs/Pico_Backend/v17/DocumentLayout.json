@@ -1,0 +1,535 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Code\\VisualStudio\\Pico_Backend-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\cooker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\cooker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\groupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\groupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\dieuhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\dieuhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\icookerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\icookerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\washingmachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\washingmachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\cookercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\cookercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\televisoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\televisoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\washingmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\washingmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\iwashingmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\iwashingmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\cookerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\cookerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\dieuhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\dieuhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\iauthenticaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\iauthenticaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\groupconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\groupconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\dto\\pagingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\dto\\pagingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\authenticaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\authenticaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\repository\\televisonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\repository\\televisonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\dieuhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\dieuhoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\itelevisonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\itelevisonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\controllers\\groupconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\controllers\\groupconfigcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\idieuhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\idieuhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|g:\\code\\visualstudio\\pico_backend-master\\pico_backend\\interface\\igroupconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B31F87E-D8E9-43F9-B400-60815D82D171}|Pico_Backend\\Pico_Backend.csproj|solutionrelative:pico_backend\\interface\\igroupconfigrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\BaseRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\BaseRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:38.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\IBaseRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IBaseRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\IBaseRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:38.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\BaseController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAApwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:38.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WashingMachine.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\WashingMachine.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\WashingMachine.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\WashingMachine.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\WashingMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:02:38.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Television.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Television.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\Television.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Television.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\Television.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T03:49:15.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DieuHoa.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\DieuHoa.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\DieuHoa.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\DieuHoa.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\DieuHoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupConfig.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\GroupConfig.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\GroupConfig.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\GroupConfig.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\GroupConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cooker.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Cooker.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\Cooker.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Cooker.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\Cooker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:01:53.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICookerRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\ICookerRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\ICookerRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\ICookerRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\ICookerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:05:07.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WashingMachineController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\WashingMachineController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\WashingMachineController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\WashingMachineController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\WashingMachineController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvwwAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:14:14.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Pico_Backend\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Pico_Backend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T03:12:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Pico_Backend\\appsettings.json",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\appsettings.json",
+              "RelativeToolTip": "Pico_Backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T00:36:39.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Program.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Program.cs",
+              "RelativeToolTip": "Pico_Backend\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CookerController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\CookerController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\CookerController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\CookerController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\CookerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:14:38.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Pico_Backend\\appsettings.Development.json",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\appsettings.Development.json",
+              "RelativeToolTip": "Pico_Backend\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-18T01:33:28.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WashingMachineRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\WashingMachineRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\WashingMachineRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\WashingMachineRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\WashingMachineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:04:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWashingMachineRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IWashingMachineRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\IWashingMachineRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IWashingMachineRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\IWashingMachineRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:05:48.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TelevisonController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\TelevisonController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\TelevisonController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\TelevisonController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\TelevisonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:38.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CookerRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\CookerRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\CookerRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\CookerRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\CookerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:03:44.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DieuHoaRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\DieuHoaRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\DieuHoaRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\DieuHoaRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\DieuHoaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:38.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthenticateRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IAuthenticateRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\IAuthenticateRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IAuthenticateRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\IAuthenticateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:52:27.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GroupConfigRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\GroupConfigRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\GroupConfigRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\GroupConfigRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\GroupConfigRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TelevisonRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\TelevisonRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\TelevisonRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\TelevisonRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\TelevisonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticateRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\AuthenticateRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Repository\\AuthenticateRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Repository\\AuthenticateRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Repository\\AuthenticateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:53:00.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PagingResponse.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\DTO\\PagingResponse.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\DTO\\PagingResponse.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\DTO\\PagingResponse.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\DTO\\PagingResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T02:29:49.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DieuHoaController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\DieuHoaController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\DieuHoaController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\DieuHoaController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\DieuHoaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Models\\Login.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Models\\Login.cs",
+              "RelativeToolTip": "Pico_Backend\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:51:21.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ITelevisonRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\ITelevisonRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\ITelevisonRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\ITelevisonRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\ITelevisonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GroupConfigController.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\GroupConfigController.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Controllers\\GroupConfigController.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Controllers\\GroupConfigController.cs",
+              "RelativeToolTip": "Pico_Backend\\Controllers\\GroupConfigController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDieuHoaRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IDieuHoaRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\IDieuHoaRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IDieuHoaRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\IDieuHoaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IGroupConfigRepository.cs",
+              "DocumentMoniker": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IGroupConfigRepository.cs",
+              "RelativeDocumentMoniker": "Pico_Backend\\Interface\\IGroupConfigRepository.cs",
+              "ToolTip": "G:\\Code\\VisualStudio\\Pico_Backend-master\\Pico_Backend\\Interface\\IGroupConfigRepository.cs",
+              "RelativeToolTip": "Pico_Backend\\Interface\\IGroupConfigRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:35:39.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

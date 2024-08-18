@@ -28,9 +28,13 @@ export const getPagingRecord = async (
   }
 };
 
-export const getNewEmployeeCode = async () => {
-  const res = await axios.get(`${baseUrl}/Employees/NewEmployeeCode`);
-  return res.data;
+export const getNewID = async (tableName) => {
+  try {
+    const res = await axios.get(`${baseUrl}/${tableName}/NewId`);
+    return res.data;
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 /**

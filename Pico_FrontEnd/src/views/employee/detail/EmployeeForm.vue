@@ -423,7 +423,7 @@ import { ENUMS } from "@/helpers/enums";
 import { ACCOUNTING_TEXT } from "@/helpers/resources";
 import {
   createEmployee,
-  getNewEmployeeCode,
+  getNewID,
   getEmployeeByID,
   updateEmployee,
 } from "@/helpers/api";
@@ -533,7 +533,7 @@ export default {
     }
     if (this.formMode == ENUMS.FORM_MODE.ADD) {
       this.flag = true;
-      const newCode = await getNewEmployeeCode();
+      const newCode = await getNewID("Employee");
       this.formData = { ...this.formData, EmployeeCode: newCode };
     }
   },
@@ -914,7 +914,7 @@ export default {
             });
             this.flag = false;
             this.errorList = {};
-            const newCode = await getNewEmployeeCode();
+            const newCode = await getNewID("Employee");
             this.formData = { ...DEFAULT_FORM_VALUES, EmployeeCode: newCode };
             this.$store.dispatch("clearFamilyState");
             await this.$nextTick();
@@ -937,7 +937,7 @@ export default {
             });
             this.flag = false;
             this.errorList = {};
-            const newCode = await getNewEmployeeCode();
+            const newCode = await getNewID("Employee");
             this.formData = { ...DEFAULT_FORM_VALUES, EmployeeCode: newCode };
             this.$store.dispatch("clearFamilyState");
             await this.$nextTick();

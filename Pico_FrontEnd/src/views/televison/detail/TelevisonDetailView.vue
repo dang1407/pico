@@ -34,7 +34,7 @@
 </template>
 <script>
 import BaseInfoForm from "./BaseInfoForm.vue";
-import { getRecordById, deleteRecordAsync } from "@/helpers/api";
+import { getRecordById, deleteRecordAsync, getNewID } from "@/helpers/api";
 import { handleError, showToast } from "@/helpers/constants";
 import { mapState } from "vuex";
 import { ACCOUNTING_TEXT } from "@/helpers/resources";
@@ -51,9 +51,17 @@ export default {
     };
   },
   async mounted() {
-    const recordInfo = await getRecordById(this.$route.params.id, "Televison");
-    document.title = `Thông tin sản phẩm ${recordInfo.ProductName}`;
-    this.recordInfo = recordInfo;
+    if (this.$route.params.id) {
+      const recordInfo = await getRecordById(
+        this.$route.params.id,
+        "Television"
+      );
+      document.title = `Thông tin sản phẩm ${recordInfo.ProductName}`;
+      this.recordInfo = recordInfo;
+    } else {
+      const newId = await getNewID(this.tableName);
+      this.recordInfo.ID = newId;
+    }
   },
 
   methods: {
